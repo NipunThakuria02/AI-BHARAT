@@ -110,20 +110,9 @@ MindMap AI is a cognitive analytics platform that analyzes users' content consum
 4. THE Echo_Chamber_Detector SHALL distinguish between intentional focused learning and unintentional echo chambers
 5. WHEN providing recommendations, THE System SHALL suggest diverse content sources related to user interests
 
-### Requirement 7: Scroll Risk Alerts
 
-**User Story:** As a user, I want to be warned when I'm engaging in compulsive scrolling, so that I can take breaks and maintain healthy habits.
 
-#### Acceptance Criteria
-
-1. WHEN continuous viewing exceeds 40 minutes, THE Scroll_Risk_Monitor SHALL trigger a real-time alert
-2. WHEN detecting short-form content consumption, THE Scroll_Risk_Monitor SHALL identify Binge_Loops based on content duration patterns
-3. WHEN a Binge_Loop is detected, THE System SHALL send an immediate notification with break suggestions
-4. THE Scroll_Risk_Monitor SHALL track alert frequency and user response patterns
-5. WHEN a user dismisses alerts repeatedly, THE System SHALL adjust alert sensitivity to avoid notification fatigue
-6. THE Scroll_Risk_Monitor SHALL provide statistics on total alert count and average session duration before alerts
-
-### Requirement 8: Weekly Mental Report Generation
+### Requirement 7: Weekly Mental Report Generation
 
 **User Story:** As a user, I want to receive a comprehensive weekly report based on my available data, so that I can review my consumption patterns and make improvements.
 
@@ -140,7 +129,7 @@ MindMap AI is a cognitive analytics platform that analyzes users' content consum
 9. WHEN data is incomplete due to optional platform connections, THE Report SHALL indicate data coverage and suggest connecting additional sources for more comprehensive insights
 10. THE System SHALL generate meaningful reports even with data from a single source
 
-### Requirement 9: Data Privacy and Security
+### Requirement 8: Data Privacy and Security
 
 **User Story:** As a user, I want my consumption data to be secure and private, so that I can trust the platform with sensitive behavioral information.
 
@@ -154,7 +143,7 @@ MindMap AI is a cognitive analytics platform that analyzes users' content consum
 6. THE System SHALL log all data access attempts for security auditing
 7. WHEN storing authentication tokens, THE System SHALL use secure, httpOnly cookies with appropriate expiration
 
-### Requirement 10: System Performance and Scalability
+### Requirement 9: System Performance and Scalability
 
 **User Story:** As a platform operator, I want the system to handle growing user loads efficiently, so that we can scale to 1 million users.
 
@@ -168,7 +157,7 @@ MindMap AI is a cognitive analytics platform that analyzes users' content consum
 6. THE System SHALL implement caching for frequently accessed data reducing database load by 60%
 7. WHEN generating visualizations, THE System SHALL render mind maps within 3 seconds for graphs with up to 100 nodes
 
-### Requirement 11: Freemium Feature Access Control
+### Requirement 10: Freemium Feature Access Control
 
 **User Story:** As a platform operator, I want to differentiate free and premium features, so that we can monetize the platform while providing value to free users.
 
@@ -181,7 +170,7 @@ MindMap AI is a cognitive analytics platform that analyzes users' content consum
 5. THE System SHALL track feature usage by tier for product analytics
 6. WHEN subscription status changes, THE System SHALL update feature access within 1 minute
 
-### Requirement 12: Focus Mode (Premium Feature)
+### Requirement 11: Focus Mode (Premium Feature)
 
 **User Story:** As a premium user, I want access to focus mode tools, so that I can actively improve my content consumption habits.
 
@@ -193,7 +182,7 @@ MindMap AI is a cognitive analytics platform that analyzes users' content consum
 4. THE System SHALL allow users to customize focus mode parameters including duration and strictness level
 5. WHEN focus sessions complete, THE System SHALL provide summary statistics and achievements
 
-### Requirement 13: Advanced Analytics and Insights (Premium Feature)
+### Requirement 12: Advanced Analytics and Insights (Premium Feature)
 
 **User Story:** As a premium user, I want deeper analytical insights, so that I can understand subtle patterns in my behavior.
 
@@ -206,7 +195,7 @@ MindMap AI is a cognitive analytics platform that analyzes users' content consum
 5. WHEN displaying insights, THE System SHALL use data visualization including charts, heatmaps, and trend lines
 6. THE System SHALL provide exportable reports in PDF format for premium users
 
-### Requirement 14: Content Recommendation Engine
+### Requirement 13: Content Recommendation Engine
 
 **User Story:** As a user, I want to receive recommendations for healthier content consumption, so that I can improve my habits.
 
@@ -218,7 +207,7 @@ MindMap AI is a cognitive analytics platform that analyzes users' content consum
 4. THE System SHALL learn from user feedback on recommendations improving accuracy over time
 5. WHEN providing recommendations, THE System SHALL explain the reasoning behind each suggestion
 
-### Requirement 15: Mobile and Web Platform Support
+### Requirement 14: Mobile and Web Platform Support
 
 **User Story:** As a user, I want to access the platform on both web and mobile devices, so that I can monitor my habits anywhere.
 
